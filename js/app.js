@@ -48,7 +48,7 @@ function mostrarError(mensaje){
 
 function consultarAPI(ciudad, pais){
 
-    const appId = '2f0f46b0a1de8787203c9fe8d3f21969';
+    const appId = 'your app id';
     const url = `https://api.openweathermap.org/data/2.5/weather?q=${ciudad},${pais}&appid=${appId}`;
     spinner(); //Muestra spinner de carga
     fetch(url)
